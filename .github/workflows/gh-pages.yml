@@ -26,7 +26,7 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         EXTERNAL_REPOSITORY: bendnorman/bendnorman.github.io
-        PUBLISH_BRANCH: master
+        PUBLISH_BRANCH: hugo-retry
         PUBLISH_DIR: ./public
       with:
         emptyCommits: false
